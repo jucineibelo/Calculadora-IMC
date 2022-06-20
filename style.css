@@ -1,7 +1,11 @@
+body{
+  background-image: linear-gradient(to right,#5291ded8,#3f70ab94,#3F70AB);
+}
+
 main{
     display: flex;
-    width: 100vw;
-    height: 100vh;
+    width: 90vw;
+    height: 90vh;
     justify-content: center;
     align-items: center;
   
@@ -10,13 +14,13 @@ main{
   .container{
     display: flex;
     flex-direction: column;
-    background: rgb(99, 62, 201);
+    background: #3F70AB;
     width: 400px;
     height: 600px;
     align-items: center;
     justify-content: space-evenly;
     border-radius: 20px;
-    box-shadow: 0 0 10px rgb(0, 0, 0);
+    box-shadow: 5px 5px 5px #233E5E;
   }
   
   .title{
@@ -53,8 +57,8 @@ main{
   
   button{
     width: 300px;
-    height: 40px;
-    font: bold 1.2rem serif;
+    height: 50px;
+    font: bold 1.3rem serif;
     background: rgb(250, 246, 246);
     color: rgb(8, 8, 6);
     outline: none;
@@ -62,17 +66,18 @@ main{
     cursor: pointer;
   }
   
-  .result{
+  .result {
     display: flex;
-    margin-top: 20px;
+    margin-top: 10px;
     align-items: center;
-    width: 300px;
-    height: 150px;
+    width: 350px;
+    height: 170px;
     border-radius: 5px;
-    font: italic 1.5rem serif;
-    box-shadow: 0px 0px 10px black;
-    background: rgb(76, 71, 153);
-    color: rgb(255,198,0);
+    font: italic 1.7rem serif;
+    box-shadow: 1px 1px 5px #3F4D5E;
+    background: #5291DE;
+    color: rgb(8, 8, 6);
     padding: 20px;
     box-sizing: border-box;
     user-select: none;
+  }
